@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* img {
+  width: 300px;
+} */
+
+.skills img {
+  width: 100px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+}
