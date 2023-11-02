@@ -10,6 +10,18 @@
   font-style: normal;
 }
 
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-gray-custom;
+}
+
 * {
   font-family: "Figtree-Regular";
   margin-left: 0px;
@@ -18,15 +30,10 @@
   margin-bottom: 0px;
 }
 
+/* body * {
+  border: 1px solid red;
+} */
+
 /* img {
   width: 300px;
 } */
-
-.skills img {
-  width: 100px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-}

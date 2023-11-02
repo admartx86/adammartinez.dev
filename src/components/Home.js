@@ -4,13 +4,9 @@ import Skills from './Skills'
 const Home = () => {
     return (
         <div>
-        <Skills />
-        
-        
-    <div>Hello World!</div>
-    
+            <Skills />    
         </div>
-        )
+    )
 }
 
 export default Home;
