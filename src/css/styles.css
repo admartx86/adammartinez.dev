@@ -30,9 +30,10 @@ h6 {
   margin-bottom: 0px;
 }
 
-/* body * {
-  border: 1px solid red;
-} */
+body * {
+  /* border: 1px solid red; */
+  /* background: #fafafa; */
+}
 
 /* img {
   width: 300px;
