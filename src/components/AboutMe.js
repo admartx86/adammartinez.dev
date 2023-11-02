@@ -4,7 +4,7 @@ const AboutMe = () => {
     const [isImage1Visible, setIsImage1Visible] = useState(true);
     
     const handleScroll = () => {
-        const threshold = 600;
+        const threshold = 1500;
         const position = window.scrollY;
         const shouldShowImage1 = position <= threshold;
         

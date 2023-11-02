@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from './Skills'
+import Portfolio from './Portfolio';
 import AboutMe from './AboutMe'
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
                 <h1 className='text-4xl font-bold text-center p-1'>JUNIOR WEB DEVELOPER</h1>
             </div>
             <Skills />
+            <Portfolio />
             <AboutMe />    
         </div>
     )
