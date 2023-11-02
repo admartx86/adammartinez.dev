@@ -8,6 +8,9 @@ module.exports = {
           'custom': '#333333',
         },
       },
+      transitionDuration: {
+        '1200': '1200ms',
+      }
     },
   },
   plugins: [],
