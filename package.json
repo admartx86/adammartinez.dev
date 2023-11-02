@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.16",
+    "file-loader": "^6.2.0",
     "postcss": "^8.4.31",
     "postcss-loader": "^7.3.3",
     "react": "^18.2.0",
