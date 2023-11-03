@@ -1,29 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const AboutMe = () => {
     const [isImage1Visible, setIsImage1Visible] = useState(true);
-    
-    const handleScroll = () => {
-        const threshold = 1600;
-        const position = window.scrollY;
-        const shouldShowImage1 = position <= threshold;
-        
-        // This will update the state only if the condition changes.
-        if (shouldShowImage1 !== isImage1Visible) {
-            setIsImage1Visible(shouldShowImage1);
-        }
+    const aboutMeRef = useRef(null);
+   
+    const handleIntersection = (entries) => {
+        const isAboutMeVisible = entries[0].isIntersecting;
+        setIsImage1Visible(isAboutMeVisible);
     };
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
+        const observer = new IntersectionObserver(handleIntersection, {
+            root: null, // The viewport
+            threshold: 1.0,
+        });
+
+        // Observe the aboutMeRef
+        if (aboutMeRef.current) {
+            observer.observe(aboutMeRef.current);
+        }
+
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            if (aboutMeRef.current) {
+                observer.unobserve(aboutMeRef.current);
+            }
         };
-    }, [isImage1Visible]);
+    }, []);
 
     return (
         <div className="flex justify-center items-center flex-col p-5">
-            
+            <div className='relative'>
+            <div className='absolute -mt-32' ref={aboutMeRef}></div>
+            </div>
             <h2 className='text-2xl p-5'>About Me</h2>
 
             <div className="relative w-48 h-48 bg-gray-800">
@@ -49,7 +57,7 @@ const AboutMe = () => {
                 <p className='p-2'>
                 After college, I taught elementary school English in Sejong City, South Korea, for six years, 
                 where I developed an original "alphabet-gardening" Windows desktop game, <a 
-                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="http://www.wordbirdkids.com" target="_blank">Grab & Grow ABC Garden</a>,
+                className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:scale-110 transition-all ease-in-out duration-200" href="http://www.wordbirdkids.com" target="_blank">Grab & Grow ABC Garden</a>,
                 played at school and home by over 1,000 of my students in grades 3 and 4. I also responded to the COVID-19 school closures by developing fully-online and
                 hybrid classroom lessons alongside my Korean colleagues. (See my resume for more.)
                 </p>
