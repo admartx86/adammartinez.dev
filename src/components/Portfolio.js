@@ -2,8 +2,8 @@ import React from 'react';
 
 const Portfolio = () => {
     return(
-        <div>
-             <h2 className='text-2xl p-5'>Portfolio</h2>
+        <div className='flex flex-col'>
+             <h2 className='text-2xl p-5 self-center'>Portfolio</h2>
             <p className='font-bold px-5 py-2'>Summit Styles</p>
             <p className='px-5 py-2'>A simple full-stack e-commerce storefront built with React, Linode, Node.js, Express, MongoDB, and Amazon S3</p>
             

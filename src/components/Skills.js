@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className='flex flex-col p-5'>
             
-            <h2 className='text-2xl py-4 px-4'>Skills</h2>
+            <h2 className='text-2xl p-5 self-center'>Skills</h2>
 
             <div className='flex justify-evenly py-2'>
                 <div className='flex flex-col items-center'>
