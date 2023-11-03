@@ -32,23 +32,23 @@ const AboutMe = () => {
             <div className='relative'>
             <div className='absolute -mt-32' ref={aboutMeRef}></div>
             </div>
-            <h2 className='text-2xl p-5'>About Me</h2>
+            <h2 className='text-2xl md:text-3xl lg:text-4xl p-5 self-center'>About Me</h2>
 
-            <div className="relative w-48 h-48 bg-gray-800">
+            <div className="relative w-48 h-48 md:w-64 md:h-64  bg-gray-800">
                 <img
                     src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/adam-1.png"
                     alt="Adam 1"
-                    className={`w-48 h-48 transition-opacity duration-1200 ease-in-out absolute top-0 ${isImage1Visible ? 'opacity-100' : 'opacity-0'}`}
+                    className={`w-48 h-48 md:w-64 md:h-64 transition-opacity duration-1200 ease-in-out absolute top-0 ${isImage1Visible ? 'opacity-100' : 'opacity-0'}`}
                 />
                 <img
                     src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/adam-2.png"
                     alt="Adam 2"
-                    className={`w-48 h-48 transition-opacity duration-1200 ease-in-out absolute top-0 ${isImage1Visible ? 'opacity-0' : 'opacity-100'}`}
+                    className={`w-48 h-48 md:w-64 md:h-64 transition-opacity duration-1200 ease-in-out absolute top-0 ${isImage1Visible ? 'opacity-0' : 'opacity-100'}`}
                 />
             </div>
             
             
-            <div className='flex flex-col'>
+            <div className='flex flex-col lg:text-xl md:w-2/3'>
                 <p className='pt-5 pb-2 px-2 flex-start'>Hi, I'm Adam. I'm a junior web developer currently located in my home state of Minnesota.</p>
                 <p className='p-2'>I graduated from the University of Minnesota - Twin Cities in 2014 with a B.A. History. 
                 Although I majored in history, I sampled as widely as possible during college, studying mostly biological and physical sciences. I also studied
