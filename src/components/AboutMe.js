@@ -55,8 +55,8 @@ const AboutMe = () => {
                 </p>
                 <p className='p-2'>
                     I returned home in October 2022, and by December, I began learning web development using free, 
-                    open-source coursework, docs, articles, YouTube videos, etc. Now, I'm refactoring and learning on top of my 
-                    existing codebase while I actively seek a matching opportunity for employment.
+                    open-source coursework, docs, articles, YouTube videos, etc. Now, I'm refactoring and continuing to learn on top of my 
+                    existing codebase while I seek my first position in the field.
                 </p>
             </div>
         </div>
