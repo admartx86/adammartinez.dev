@@ -7,14 +7,13 @@ const Contact = ()  => {
 <h2 className='text-2xl md:text-3xl lg:text-4xl p-5 self-center'>Contact</h2>
        
        <div className='lg:text-xl md:w-2/3 self-center'>
-        <p className='pt-5 pb-2 px-2'>I'm located in Minnesota now but <span className='font-bold'>I'm seeking a full-time on-site or hybrid junior web development position in Colorado.</span></p>
+        <p className='pt-5 pb-2 px-2'>Although I'm located in Minnesota, <span className='font-bold'>I'm seeking a full-time position in Colorado.</span></p>
 
-        <p className='p-2'>Employers and recruiters, please reach out to me by email or phone and I will respond
-        as soon as possible during daytime buisness hours.</p>
+        <p className='p-2'>Employers and recruiters, please reach out to me by email or phone and I will respond as soon as possible.</p>
 
         <p className='p-2'>Please feel free to ask me many questions!</p>
 
-        <p className='p-2'>Thank you for your time. I look forward to hearing from you.</p>
+        <p className='p-2'>Thank you for your time and I look forward to hearing from you.</p>
 
        <div className='p-5'>
         <div className='flex flex-col items-center'>
