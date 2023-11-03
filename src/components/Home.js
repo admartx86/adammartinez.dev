@@ -1,7 +1,8 @@
 import React from 'react';
-import Skills from './Skills'
+import Skills from './Skills';
 import Portfolio from './Portfolio';
-import AboutMe from './AboutMe'
+import AboutMe from './AboutMe';
+import Resume from './Resume';
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
             </div>
             <Skills />
             <Portfolio />
-            <AboutMe />    
+            <AboutMe />
+            <Resume />
         </div>
     )
 }
