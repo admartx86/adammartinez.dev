@@ -4,8 +4,9 @@ const Contact = ()  => {
     return(
         <div className='flex flex-col p-5'>
 
-        <h2 className='text-2xl p-5 self-center'>Contact</h2>
+<h2 className='text-2xl md:text-3xl lg:text-4xl p-5 self-center'>Contact</h2>
        
+       <div className='lg:text-xl md:w-2/3 self-center'>
         <p className='pt-5 pb-2 px-2'>I'm located in Minnesota now but <span className='font-bold'>I'm seeking a full-time on-site or hybrid junior web development position in Colorado.</span></p>
 
         <p className='p-2'>Employers and recruiters, please reach out to me by email or phone and I will respond
@@ -27,6 +28,8 @@ const Contact = ()  => {
       <p className='font-bold'>phone (Google Voice)</p> <a href={`tel:6125676166`}
       className='py-2 underline text-blue-600 hover:text-blue-800 visited:text-purple-600'
       >(612) 567-6166</a>
+      </div>
+
       </div>
     </div>
          
