@@ -28,7 +28,7 @@ const Portfolio = () => {
 
 </div>
 
-             <video className='md:w-3/4 p-5 self-center shadow-lg' controls>
+             <video className='md:w-3/4 p-5 self-center' controls>
       <source src={'https://s3.us-east-2.amazonaws.com/adammartinez.dev/summit-styles-demo-1.mkv'} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -55,7 +55,7 @@ const Portfolio = () => {
         View back-end source code
     </a>
     </div>
-    <video className='md:w-3/4 p-5 self-center shadow-lg' controls>
+    <video className='md:w-3/4 p-5 self-center' controls>
       <source src={'https://s3.us-east-2.amazonaws.com/adammartinez.dev/catbook-demo-1.mkv'} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
