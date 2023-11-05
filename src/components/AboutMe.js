@@ -49,22 +49,25 @@ const AboutMe = () => {
             
             
             <div className='flex flex-col lg:text-xl md:w-2/3'>
-                <p className='pt-5 pb-2 px-2 flex-start'>Hi, I'm Adam. I'm a junior web developer from Champlin, Minnesota, where I'm currently located.</p>
+                <p className='pt-5 pb-2 px-2 flex-start'>Hi, I'm Adam. I'm a junior web developer from the Twin Cities, here in my home state of Minnesota, where I'm currently located. Although I'm located in Minnesota, <span className='font-bold'>I'm seeking a full-time junior web developer position in Colorado</span>, so if you're hiring in Colorado, read on! 🙂</p>
                 <p className='p-2'>I graduated from the University of Minnesota - Twin Cities in 2014 with a B.A. History. 
                 Although I majored in history, I sampled as broadly as possible during college, studying mostly physical and biological sciences. I also studied
                 Japanese language and culture for one semester in Chiba, Japan, in 2013.
                 </p>
                 <p className='p-2'>
-                After college, I move to Sejong City, South Korea, where I taught elementary school English in Korean public schools for six years. 
+                After college, I moved to Sejong City, South Korea, where I taught elementary school English in Korean public schools for six years. 
                 During that time, I developed an original "alphabet-gardening" Windows desktop game, <a 
                 className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:scale-110 transition-all ease-in-out duration-200" href="http://www.wordbirdkids.com" target="_blank">Grab & Grow ABC Garden</a>,
-                which has been played at school and home by more than 1,000 of my students in grades 3 and 4. I also responded to the COVID-19 school closures by developing online and
-                hybrid lessons alongside my Korean colleagues. (See my resume for more.)
+                which has been played at school and home by more than 1,000 of my students in grades 3 and 4. I also responded to the many COVID-19 school closures, immediately and continuously, by developing online and
+                hybrid lessons alongside my Korean colleagues. It was during this quiet period of social distancing that I began to engage in intensive, self-directed language learning (Korean and Japanese in parallel). Despite falling short of my own goals, 
+                I passed TOPIK Level 2 (Test of Proficiency in Korean) and I was able to use what I learned to develop improved lessons and materials—using emoji and translation
+directly in the text—to help students use English with greater ease and confidence.
                 </p>
                 <p className='p-2'>
                     I returned home in October 2022, and by December, I began learning web development using free, 
-                    open-source coursework, docs, articles, YouTube videos, etc. Now, I'm refactoring and continuing to learn on top of the small 
-                    codebase that I've built, while I seek a position that will allow me to do my best work in the field of web development. 
+                    open-source coursework, docs, articles, YouTube videos, etc.
+                    Now, I'm refactoring and continuing to learn on top of the small 
+                    codebase that I've built while I seek a position that will allow me to continue doing my best work, this time, in the field of web development. 
                 </p>
             </div>
         </div>
