@@ -5,14 +5,13 @@ module.exports = {
     extend: {
       colors: {
         gray: {
-          'custom': '#333333',
-        },
+          custom: '#333333'
+        }
       },
       transitionDuration: {
-        '1200': '1200ms',
+        1200: '1200ms'
       }
-    },
+    }
   },
-  plugins: [],
-}
-
+  plugins: []
+};

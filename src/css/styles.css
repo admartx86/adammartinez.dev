@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Figtree-Regular";
-  src: url("../otffonts/figtree-regular.otf") format("opentype");
+  font-family: 'Figtree-Regular';
+  src: url('../otffonts/figtree-regular.otf') format('opentype');
   font-weight: 300;
   font-display: normal;
   font-style: normal;
@@ -23,7 +23,7 @@ h6 {
 }
 
 * {
-  font-family: "Figtree-Regular";
+  font-family: 'Figtree-Regular';
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;

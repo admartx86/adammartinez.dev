@@ -1,12 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Home from './Home'
+import Home from './Home';
 
 const App = () => {
-
-    return (
-        <Home/>
-    )
-}
+  return <Home />;
+};
 
 export default App;
