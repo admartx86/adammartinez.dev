@@ -11,11 +11,10 @@ const AboutMe = () => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection, {
-      root: null, // The viewport
+      root: null,
       threshold: 1.0
     });
 
-    // Observe the aboutMeRef
     if (aboutMeRef.current) {
       observer.observe(aboutMeRef.current);
     }
@@ -28,13 +27,16 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center flex-col p-5">
+    <article className="flex justify-center items-center flex-col p-5">
       <div className="relative">
         <div className="absolute -mt-32" ref={aboutMeRef}></div>
       </div>
-      <h2 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">About Me</h2>
 
-      <div className="relative w-48 h-48 md:w-64 md:h-64  bg-gray-800">
+      <header>
+        <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">About Me</h3>
+      </header>
+
+      <figure className="relative w-48 h-48 md:w-64 md:h-64  bg-gray-800">
         <img
           src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/adam-1.png"
           alt="Adam 1"
@@ -49,7 +51,7 @@ const AboutMe = () => {
             isImage1Visible ? 'opacity-0' : 'opacity-100'
           }`}
         />
-      </div>
+      </figure>
 
       <div className="flex flex-col lg:text-xl md:w-2/3">
         <p className="pt-5 pb-2 px-2 flex-start">
@@ -94,7 +96,7 @@ const AboutMe = () => {
           development.
         </p>
       </div>
-    </div>
+    </article>
   );
 };
 
