@@ -7,7 +7,7 @@ const Contact = ()  => {
 <h2 className='text-2xl md:text-3xl lg:text-4xl p-5 self-center'>Contact</h2>
        
        <div className='lg:text-xl md:w-2/3 self-center'>
-        <p className='pt-5 pb-2 px-2'><span className='font-bold'>I'm seeking a full-time junior web developer position in Colorado</span></p>
+        <p className='pt-5 pb-2 px-2'><span className='font-bold'>I'm seeking a full-time junior web developer position in Colorado.</span></p>
 
         <p className='p-2'>Employers and recruiters, please reach out to me by email or phone and I will respond as soon as possible.</p>
 
