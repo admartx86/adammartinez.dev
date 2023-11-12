@@ -85,7 +85,7 @@ const AboutMe = () => {
           was during this quiet period of social distancing that I began to engage in intensive,
           self-directed language learning (Korean and Japanese in parallel). As a result, I was able
           to pass TOPIK Level 2 (Test of Proficiency in Korean) and use what I learned as a language
-          learner to develop improved lessons and materials—using emoji and translation directly in
+          learner to develop innovative lessons and materials—using emoji and translation directly in
           the text—to help my students use English with greater ease and confidence.
         </p>
         <p className="p-2">
