@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className="flex flex-col p-5">
-      <header className='flex justify-center items-center'>
+      <header className="flex justify-center items-center">
         <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">Skills</h3>
       </header>
 

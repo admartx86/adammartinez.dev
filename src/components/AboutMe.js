@@ -55,12 +55,15 @@ const AboutMe = () => {
 
       <div className="flex flex-col lg:text-xl md:w-2/3">
         <p className="pt-5 pb-2 px-2 flex-start">
-          Hi, I'm Adam. I'm a junior web developer from the Twin Cities (Minnesota), where I'm
+          Hi, I'm Adam. I'm a junior web developer from the Twin Cities of Minnesota, where I'm
           currently located.{' '}
           <span className="font-bold">
-            I'm seeking a full-time junior web developer position in Colorado
-          </span>
-          , so if you're hiring in Colorado, read on! 🙂
+            I'm seeking a full-time junior web developer position in Colorado.
+          </span>{' '}
+          <span className="font-bold">
+            The ideal position would be with a company solving a problem in science or engineering.
+          </span>{' '}
+          So if you're hiring in Colorado, read on! 😀
         </p>
         <p className="p-2">
           I graduated from the University of Minnesota - Twin Cities in 2014 with a B.A. History.
@@ -85,8 +88,8 @@ const AboutMe = () => {
           was during this quiet period of social distancing that I began to engage in intensive,
           self-directed language learning (Korean and Japanese in parallel). As a result, I was able
           to pass TOPIK Level 2 (Test of Proficiency in Korean) and use what I learned as a language
-          learner to develop innovative lessons and materials—using emoji and translation directly in
-          the text—to help my students use English with greater ease and confidence.
+          learner to develop innovative lessons and materials—using emoji and translation directly
+          in the text—to help my students use English with greater ease and confidence.
         </p>
         <p className="p-2">
           I returned home in October 2022, and by December, I began learning web development using
