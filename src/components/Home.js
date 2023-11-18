@@ -5,6 +5,7 @@ import AboutMe from './AboutMe';
 import Resume from './Resume';
 import Contact from './Contact';
 import SocialMediaLinks from './SocialMediaLinks';
+import References from './References';
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
         </section>
         <section>
           <AboutMe />
+        </section>
+        <section>
+          <References />
         </section>
         <section>
           <Resume />

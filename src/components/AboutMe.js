@@ -55,12 +55,12 @@ const AboutMe = () => {
 
       <div className="flex flex-col lg:text-xl md:w-2/3">
         <p className="pt-5 pb-2 px-2 flex-start">
-          Hi, I'm Adam. I'm a junior web developer from the Twin Cities of Minnesota, where I'm
+          Hi, I'm Adam. I'm a junior web developer from the Twin Cities (Minnesota), where I'm
           currently located.{' '}
-          <span className="font-bold">
+          <span className="font-bold bg-blue-300">
             I'm seeking a full-time junior web developer position in Colorado.
           </span>{' '}
-          <span className="font-bold">
+          <span className="font-bold bg-blue-300">
             The ideal position would be with a company solving a problem in science or engineering.
           </span>{' '}
           So if you're hiring in Colorado, read on! 😀
@@ -80,7 +80,7 @@ const AboutMe = () => {
             href="http://www.wordbirdkids.com"
             target="_blank"
           >
-            Grab & Grow ABC Garden
+            🌷 Grab & Grow ABC Garden
           </a>
           , which has been played at school and home by more than 1,000 of my students in grades 3
           and 4. I also responded to the many COVID-19 school closures, immediately and
