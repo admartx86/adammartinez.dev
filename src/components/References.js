@@ -8,7 +8,7 @@ const References = () => {
       </header>
 
       <div className="flex md:justify-evenly flex-col md:flex-row lg:text-xl">
-        <blockquote className="md:w-1/3">
+        <blockquote className="md:w-1/4">
           <header className="font-bold px-5 py-2">변호석 (Hoseok Pyeon)</header>
           <div className="bg-gray-200 rounded-xl p-5">
             "I was Adam's co-teacher at Hansol Elementary School at the start of the COVID-19
@@ -19,7 +19,16 @@ const References = () => {
             but Adam's active support allowed us to have a successful semester."
           </div>
         </blockquote>
-        <blockquote className="md:w-1/3">
+        <blockquote className="md:w-1/4">
+          <header className="font-bold px-5 py-2">박데레사 (Theresa Park)</header>
+          <div className="bg-gray-200 rounded-xl p-5">
+            "I was Adam's co-teacher at Neulbom Elementary School. I highly recommend Adam to any
+            organization due to his dedication to his work and good relationship that he had with
+            his students and other teachers. He truly embodies what a good team member should be.
+            Moreover, he has a warm heart and is well loved by his colleagues."
+          </div>
+        </blockquote>
+        <blockquote className="md:w-1/4">
           <header className="font-bold px-5 py-2">Nathan Huff</header>
           <div className="bg-gray-200 rounded-xl p-5">
             "I hired Adam at Qorvo, twice actually. He is passionate about his work, quick to
