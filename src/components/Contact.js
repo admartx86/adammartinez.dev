@@ -9,12 +9,9 @@ const Contact = () => {
 
       <article className="lg:text-xl md:w-2/3 self-center">
         <p className="p-2">
-          Employers and recruiters, please reach out to me by phone or email and I will respond as
+          Employers and recruiters, reach out to me by phone or email and I will respond as
           soon as possible.
         </p>
-
-        <p className="p-2">Feel free to ask me many questions!</p>
-
         <p className="p-2">
           Thank you for your time and consideration. I look forward to hearing from you!
         </p>
