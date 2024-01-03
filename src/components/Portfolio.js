@@ -10,8 +10,8 @@ const Portfolio = () => {
       <section className="md:w-2/3 self-center">
         <h4 className="font-bold px-5 py-2">Summit Styles</h4>
         <p className="px-5 py-2">
-          A simple full-stack e-commerce storefront built with React, Linode, Node.js, Express,
-          MongoDB, and Amazon S3
+          Designed and developed a full-stack e-commerce storefront built with React, Linode, Node.js, Express,
+          MongoDB, and Amazon S3.
         </p>
         <a
           href="https://www.summitstyles.dev"
@@ -48,8 +48,8 @@ const Portfolio = () => {
       <section className="md:w-2/3 self-center">
         <h4 className="font-bold px-5 py-2">Catbook</h4>
         <p className="px-5 py-2">
-          A simple full-stack Twitter clone built with React, Redux, Tailwind CSS, Linode, Node.js,
-          Express, MongoDB, and Amazon S3
+          Designed and developed a full-stack Twitter clone built with React, Redux, Tailwind CSS, Linode, Node.js,
+          Express, MongoDB, and Amazon S3.
         </p>
         <a
           href="https://www.catbook.dev"
