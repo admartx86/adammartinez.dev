@@ -55,15 +55,12 @@ const AboutMe = () => {
 
       <div className="flex flex-col lg:text-xl md:w-2/3">
         <p className="pt-5 pb-2 px-2 flex-start">
-          Hi, I'm Adam. I'm a junior web developer from the Twin Cities (Minnesota), where I'm
+          Hi, I'm Adam. I'm a software developer from the Twin Cities (Minnesota), where I'm
           currently located.{' '}
-          <span className="font-bold bg-blue-300">
-            I'm seeking a full-time junior web developer position in Colorado.
-          </span>{' '}
-          <span className="font-bold bg-blue-300">
-            The ideal position would be with a company solving a problem in science or engineering.
-          </span>{' '}
-          So if you're hiring in Colorado, read on! 😀
+          <span className="font-bold bg-pink-300">
+            I'm seeking a full-time position in Colorado, or fully-remote from anywhere.
+
+          </span>{' '} So if you're hiring, read on! 😃 
         </p>
         <p className="p-2">
           I graduated from the University of Minnesota - Twin Cities in 2014 with a B.A. History.
@@ -83,20 +80,11 @@ const AboutMe = () => {
             🌷 Grab & Grow ABC Garden
           </a>
           , which has been played at school and home by more than 1,000 of my students in grades 3
-          and 4. I also responded to the many COVID-19 school closures, immediately and
-          continuously, by developing online and hybrid lessons alongside my Korean colleagues. It
-          was during this quiet period of social distancing that I began to engage in intensive,
-          self-directed language learning (Korean and Japanese in parallel). As a result, I was able
-          to pass TOPIK Level 2 (Test of Proficiency in Korean) and use what I learned as a language
-          learner to develop innovative lessons and materials—using emoji and translation directly
-          in the text—to help my students use English with greater ease and confidence.
+          and 4.
         </p>
         <p className="p-2">
           I returned home in October 2022, and by December, I began learning web development using
-          free, open-source coursework, docs, articles, YouTube videos, etc. Now, I'm refactoring
-          and continuing to learn on top of the small codebase that I've built while I seek a
-          position that will allow me to continue doing my best work, this time, in the field of web
-          development.
+          free, open-source coursework, docs, articles, YouTube videos, etc. See my latest work <a href="#Portfolio" className='text-blue-600 hover:text-blue-800 visited:text-purple-600'>🙂☝ above</a> and get in touch with me <a href="#Contact" className='text-blue-600 hover:text-blue-800 visited:text-purple-600'>🙃👇 below</a>. Thank you for your time!
         </p>
       </div>
     </article>

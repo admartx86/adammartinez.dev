@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-col lg:text-xl">
+    <div id="Portfolio" className="flex flex-col lg:text-xl">
       <header className="flex justify-center items-center">
         <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">Portfolio</h3>
       </header>
