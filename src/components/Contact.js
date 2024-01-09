@@ -9,7 +9,7 @@ const Contact = () => {
 
       <article className="lg:text-xl md:w-2/3 self-center">
       <p className="p-2">
-          I'm looking for a full-time position that matches my programming skills. Hire me to become a specialist at solving your problem!
+          I'm looking for a full-time position in software development. Hire me to become a specialist at solving your problem!
       </p>
         <div className="p-5">
           <div className="p-5 flex flex-col items-center">
