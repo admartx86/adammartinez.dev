@@ -8,17 +8,12 @@ const Contact = () => {
       </header>
 
       <article className="lg:text-xl md:w-2/3 self-center">
-        <p className="p-2">
-          Employers and recruiters, reach out to me by phone or email and I will respond as
-          soon as possible.
-        </p>
-        <p className="p-2">
-          Thank you for your time and consideration. I look forward to hearing from you!
-        </p>
-
+      <p className="p-2">
+          I'm looking for a full-time position that matches my programming skills. Hire me to become a specialist at solving your problem!
+      </p>
         <div className="p-5">
           <div className="p-5 flex flex-col items-center">
-            <p className="font-bold">phone (Google Voice)</p>{' '}
+            <p className="font-bold">phone</p>{' '}
             <a
               href={`tel:6125676166`}
               className="py-2 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
