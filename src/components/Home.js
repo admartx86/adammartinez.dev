@@ -56,9 +56,6 @@ const Home = () => {
           <Portfolio />
         </section>
         <section>
-          <Resume />
-        </section>
-        <section>
           <Contact />
         </section>
       </main>
