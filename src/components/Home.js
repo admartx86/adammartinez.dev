@@ -42,7 +42,7 @@ const Home = () => {
      
         
         
-        <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center p-5">
+        <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-5">
        
             I make beautiful, user-friendly <br></br>web applications. 
         </h3>
