@@ -17,7 +17,7 @@ const Skills = () => {
               title="Figma"
               className="w-14 md:w-16 lg:w-20"
             />
-            <figcaption>Figma</figcaption>
+            <figcaption className="py-2">Figma</figcaption>
           </figure>
           <figure className="flex flex-col items-center">
             <img
@@ -26,7 +26,7 @@ const Skills = () => {
               title="HTML"
               className="w-14 md:w-16 lg:w-20"
             />
-            <figcaption>HTML</figcaption>
+            <figcaption className="py-2">HTML</figcaption>
           </figure>
           <figure className="flex flex-col items-center">
             <img
@@ -35,7 +35,7 @@ const Skills = () => {
               title="CSS"
               className="w-14 md:w-16 lg:w-20"
             />
-            <figcaption>CSS</figcaption>
+            <figcaption className="py-2">CSS</figcaption>
           </figure>
         </div>
 
@@ -81,7 +81,7 @@ const Skills = () => {
               title="HTML"
               className="w-14 md:w-16 lg:w-20"
             />
-            <figcaption>Figma</figcaption>
+            <figcaption className="py-2">Figma</figcaption>
           </figure>
           <figure className="flex flex-col items-center">
             <img
