@@ -86,8 +86,8 @@ const Skills = () => {
           <figure className="flex flex-col items-center">
             <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/HTML5.png"
-              alt="HTML"
-              title="HTML"
+              alt="Figma"
+              title="Figma"
               className="w-14 md:w-16 lg:w-20"
             />
             <figcaption className="py-2">HTML</figcaption>
