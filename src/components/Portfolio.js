@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div id="Portfolio" className="flex flex-col lg:text-xl">
       <header className="flex justify-center items-center">
-        <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">Portfolio</h3>
+        <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">What I've Made</h3>
       </header>
 
       <section className="md:w-2/3 self-center">
