@@ -3,12 +3,22 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className="flex flex-col p-5">
-      <header className="flex justify-center items-center">
+      
+      <header className='flex justify-center items-center'>
         <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">Skills</h3>
       </header>
 
       <div className="md:hidden">
         <div className="flex justify-evenly py-2 md:text-xl lg:text-2xl">
+        <figure className="flex flex-col items-center">
+            <img
+              src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/Figma.png"
+              alt="HTML"
+              title="HTML"
+              className="w-14 md:w-16 lg:w-20"
+            />
+            <figcaption>Figma</figcaption>
+          </figure>
           <figure className="flex flex-col items-center">
             <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/HTML5.png"
@@ -27,7 +37,10 @@ const Skills = () => {
             />
             <figcaption>CSS</figcaption>
           </figure>
-          <figure className="flex flex-col items-center overflow-visible relative">
+        </div>
+
+        <div className="flex justify-evenly py-4 md:text-xl lg:text-2xl">
+        <figure className="flex flex-col items-center overflow-visible relative">
             <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/JavaScript.png"
               alt="JavaScript"
@@ -36,9 +49,6 @@ const Skills = () => {
             />
             <figcaption className="text-center absolute bottom-0">JavaScript</figcaption>
           </figure>
-        </div>
-
-        <div className="flex justify-evenly py-4 md:text-xl lg:text-2xl">
           <figure className="flex flex-col items-center">
             <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/React.png"
@@ -64,6 +74,15 @@ const Skills = () => {
 
       <div className="hidden md:block">
         <div className="flex justify-evenly py-2 md:py-6 md:text-xl lg:text-2xl">
+        <figure className="flex flex-col items-center">
+            <img
+              src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/Figma.png"
+              alt="HTML"
+              title="HTML"
+              className="w-14 md:w-16 lg:w-20"
+            />
+            <figcaption>Figma</figcaption>
+          </figure>
           <figure className="flex flex-col items-center">
             <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/HTML5.png"
