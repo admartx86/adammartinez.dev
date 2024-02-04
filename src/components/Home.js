@@ -56,12 +56,6 @@ const Home = () => {
           <Portfolio />
         </section>
         <section>
-          <AboutMe />
-        </section>
-        <section>
-          <References />
-        </section>
-        <section>
           <Resume />
         </section>
         <section>
