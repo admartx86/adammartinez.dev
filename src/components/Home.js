@@ -15,7 +15,7 @@ const Home = () => {
           Adam Martinez
         </h1>
         <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center p-5">
-          SOFTWARE DEVELOPER
+          WEB DEVELOPER
         </h2>
       </header>
       <main>
