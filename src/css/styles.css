@@ -30,6 +30,36 @@ h6 {
   margin-bottom: 0px;
 }
 
+@keyframes oscillate {
+  0%,
+  100% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+}
+
+/* Tailwind utility for animation duration */
+.animate-rotate {
+  animation: rotate 2s ease-in-out infinite;
+}
+
+/* Tailwind utility for animation duration */
+.animate-oscillate {
+  animation: oscillate 2s ease-in-out infinite;
+}
+
 /* body * {
   border: 1px solid green;
 } */

@@ -23,13 +23,13 @@ const Home = () => {
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/magic-wand.png"
               alt="magic wand emoji"
               title="magic-wand-emoji"
-              className="w-14 md:w-16 lg:w-20"
+              className="w-14 md:w-16 lg:w-20 animate-rotate"
             />
              <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/top-hat.png"
               alt="top hat emoji"
               title="top-hat-emoji"
-              className="w-14 md:w-16 lg:w-20"
+              className="w-14 md:w-16 lg:w-20 animate-oscillate"
             />
              <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/rabbit.png"
