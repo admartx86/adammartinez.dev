@@ -23,7 +23,7 @@ const Contact = () => {
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/computer-mouse.png"
               alt="computer mouse"
               title="computer-mouse"
-              className="w-14 md:w-16 lg:w-20 circle animate-oscillate-mouse"
+              className="w-14 md:w-16 lg:w-20 circle animate-circular"
             />
             </div>
 

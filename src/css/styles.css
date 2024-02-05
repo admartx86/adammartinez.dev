@@ -82,10 +82,10 @@ h6 {
 @keyframes oscillate {
   0%,
   100% {
-    transform: translateY(-1px);
+    transform: translateY(-3px);
   }
   50% {
-    transform: translateY(1px);
+    transform: translateY(3px);
   }
 }
 
@@ -149,6 +149,20 @@ h6 {
   80% {
     transform: rotate(0deg);
   }
+}
+
+@keyframes circular {
+  0% {
+    transform: rotate(0deg) translateY(5px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(5px) rotate(-360deg);
+  }
+}
+
+.animate-circular {
+  animation: circular 2s infinite linear;
 }
 
 .animate-rotate {
