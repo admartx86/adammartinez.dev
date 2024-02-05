@@ -11,19 +11,19 @@ const Contact = () => {
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/paintbrush.png"
               alt="paintbrush emoji"
               title="paintbrush-emoji"
-              className="w-14 md:w-16 lg:w-20"
+              className="w-14 md:w-16 lg:w-20 animate-oscillate-x"
             />
              <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/keyboard.png"
               alt="keyboard emoji"
               title="keyboard-emoji"
-              className="w-14 md:w-16 lg:w-20"
+              className="w-14 md:w-16 lg:w-20 animate-oscillate-keyboard"
             />
              <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/computer-mouse.png"
               alt="computer mouse"
               title="computer-mouse"
-              className="w-14 md:w-16 lg:w-20"
+              className="w-14 md:w-16 lg:w-20 circle animate-oscillate-mouse"
             />
             </div>
 

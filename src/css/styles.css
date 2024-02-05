@@ -40,6 +40,16 @@ h6 {
   }
 }
 
+@keyframes oscillateX {
+  0%,
+  100% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+
 @keyframes rotate {
   0%,
   100% {
@@ -50,16 +60,97 @@ h6 {
   }
 }
 
-/* Tailwind utility for animation duration */
+@keyframes zigzag {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translateX(10px);
+  }
+  40% {
+    transform: translate(-10px, 10px);
+  }
+  60% {
+    transform: translate(10px, 10px);
+  }
+  80% {
+    transform: translateX(-10px, 10px);
+  }
+}
+
+@keyframes oscillate {
+  0%,
+  100% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(1px);
+  }
+}
+
+@keyframes oscillate-mouse {
+  0%,
+  100% {
+    transform: translateY(-4px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+@keyframes mouse {
+  0%,
+  100% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+
+.animate-zigzag {
+  animation: zigzag 4s ease-in-out infinite;
+}
+
+.animate-oscillate-x {
+  animation: oscillateX 1s ease-in-out infinite;
+}
+
 .animate-rotate {
   animation: rotate 2s ease-in-out infinite;
 }
 
-/* Tailwind utility for animation duration */
 .animate-oscillate {
   animation: oscillate 2s ease-in-out infinite;
 }
 
-/* body * {
-  border: 1px solid green;
-} */
+.animate-oscillate-keyboard {
+  animation: oscillate 4s ease-in-out infinite;
+}
+
+.animate-oscillate-mouse {
+  animation: oscillate-mouse 4s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 2s ease-in-out infinite;
+}
