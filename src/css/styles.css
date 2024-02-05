@@ -162,7 +162,7 @@ h6 {
 }
 
 .animate-circular {
-  animation: circular 2s infinite linear;
+  animation: circular 2.5s infinite linear;
 }
 
 .animate-rotate {

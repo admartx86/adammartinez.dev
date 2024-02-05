@@ -29,7 +29,8 @@ const Contact = () => {
 
       <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-5">
        
-      Hire me to help you turn your idea into a ⭐⭐⭐⭐⭐ product that your customers will love! 💐👏💐👏💐👏
+      Hire me to help you turn your idea into a 💯 product that your customers will love! 
+      <br></br>💐👏💐👏💐👏
    </h3>
         <div className="p-5">
           <div className="p-5 flex flex-col items-center">
