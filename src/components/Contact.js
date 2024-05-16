@@ -6,7 +6,7 @@ const Contact = () => {
 
       <article className="lg:text-xl md:w-2/3 self-center">
 
-      <div className='p-5 flex justify-center'>
+      {/* <div className='p-5 flex justify-center'>
         <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/paintbrush.png"
               alt="paintbrush emoji"
@@ -25,14 +25,15 @@ const Contact = () => {
               title="computer-mouse"
               className="w-14 md:w-16 lg:w-20 circle animate-circular"
             />
-            </div>
+            </div> */}
 
-      <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-5">
+      <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
        
-      Tell me what you want to make and let's make it together!
+        Hire me to do my best work for you.
+
    </h3>
         <div className="p-5">
-          <div className="p-5 flex flex-col items-center">
+          {/* <div className="p-5 flex flex-col items-center">
             <p className="font-bold">phone</p>{' '}
             <a
               href={`tel:6125676166`}
@@ -40,9 +41,9 @@ const Contact = () => {
             >
               (612) 567-6166
             </a>
-          </div>
+          </div> */}
           <div className="flex flex-col items-center">
-            <p className="font-bold">email</p>
+            {/* <p className="font-bold">email</p> */}
             <a
               href={`mailto:adammartinez6166@gmail.com`}
               className="py-2 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
