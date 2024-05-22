@@ -3,10 +3,8 @@ import React from 'react';
 const Contact = () => {
   return (
     <div id="Contact" className="flex flex-col p-5">
-
       <article className="lg:text-xl md:w-2/3 self-center">
-
-      {/* <div className='p-5 flex justify-center'>
+        {/* <div className='p-5 flex justify-center'>
         <img
               src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/paintbrush.png"
               alt="paintbrush emoji"
@@ -27,11 +25,9 @@ const Contact = () => {
             />
             </div> */}
 
-      <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
-       
-        Hire me to do my best work for you.
-
-   </h3>
+        <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
+          Do you have an opportunity for a junior developer? Get in touch with me.
+        </h3>
         <div className="p-5">
           {/* <div className="p-5 flex flex-col items-center">
             <p className="font-bold">phone</p>{' '}

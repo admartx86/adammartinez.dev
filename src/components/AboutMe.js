@@ -63,8 +63,8 @@ const AboutMe = () => {
         </p>
         <p className="p-2">
           After college, I moved to Sejong City, South Korea, where I taught elementary school
-          English in Korean public schools for six years. During that time, I designed and developed an original
-          "alphabet-gardening" Windows desktop game,{' '}
+          English in Korean public schools for six years. During that time, I designed and developed
+          an original "alphabet-gardening" Windows desktop game,{' '}
           <a
             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:scale-110 transition-all ease-in-out duration-200"
             href="http://www.wordbirdkids.com"
@@ -72,18 +72,21 @@ const AboutMe = () => {
           >
             Grab & Grow ABC Garden
           </a>
-          , which has now been played at school and home by more than 1,000 of my students in grades 3
-          and 4 to help them learn English.
+          , which has now been played at school and home by more than 1,000 of my students in grades
+          3 and 4 to help them learn English.
         </p>
         <p className="p-2">
           I returned home in October 2022, and by December, I began learning web development using
-          free, open-source coursework, docs, articles, YouTube videos, etc. By November 2023, I had completed my first two
+          free, open-source coursework, docs, articles, YouTube videos, etc. By November 2023, I had
+          completed my first two
           <a
             href="#Portfolio"
             className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
           >
-             {' '}full-stack websites
-          </a>.
+            {' '}
+            full-stack websites
+          </a>
+          .
         </p>
         <p>🎉 More to come in 2024! </p>
       </div>

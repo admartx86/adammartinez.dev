@@ -8,9 +8,16 @@ const Portfolio = () => {
       </header> */}
 
       <section className="md:w-2/3 self-center">
-        <h4 className="font-bold px-5 py-2 text-center">Summit Styles</h4>
+        {/* <h4 className="font-bold px-5 py-2 text-center">Summit Styles</h4> */}
+        <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
+          Summit Styles{' '}
+        </h4>
+        {/* <p className="font-bold px-5 py-2">
+          My Best Design
+        </p> */}
         <p className="px-5 py-2">
-          An e-commerce storefront built with HTML/CSS/JavaScript, React, Tailwind CSS, Node.js/Express, MongoDB and AWS.
+          <span className="font-bold">This is my best design. </span>It's an e-commerce storefront
+          built with HTML/CSS/JavaScript, React, Node.js/Express, MongoDB and AWS.
         </p>
         <a
           href="https://www.summitstyles.dev"
@@ -45,9 +52,16 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        <h4 className="font-bold px-5 py-2 text-center">Catbook</h4>
+        {/* <h4 className="font-bold px-5 py-2 text-center">Catbook</h4> */}
+        <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
+          Catbook
+        </h4>
         <p className="px-5 py-2">
-          A Twitter clone built with HTML/CSS/JavaScript, React, Redux, Tailwind CSS, Node.js/Express, MongoDB and AWS.
+          <span className="font-bold">
+            This is my best and most technical work in full stack web development.{' '}
+          </span>
+          It's a Twitter clone built with HTML/CSS/JavaScript, React, Redux, Tailwind CSS,
+          Node.js/Express, MongoDB and AWS.
         </p>
         <a
           href="https://www.catbook.dev"
@@ -82,9 +96,16 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        <h4 className="font-bold px-5 py-2 text-center">Vuetube</h4>
+        {/* <h4 className="font-bold px-5 py-2 text-center">Vuetube</h4> */}
+        <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
+          Vuetube
+        </h4>
         <p className="px-5 py-2">
-          A YouTube clone built with HTML/CSS/JavaScript, Vue.js, Bootstrap, PHP/Laravel, MySQL and AWS.
+          <span className="font-bold">
+            I'm not limited to using just one language or framework.
+          </span>{' '}
+          Here's a simple "tube" application I made with HTML/CSS/JavaScript, Vue.js, Bootstrap,
+          PHP/Laravel, MySQL and AWS.
         </p>
         <a
           href="https://www.vuetube.dev"
@@ -119,10 +140,16 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        <h4 className="font-bold px-5 py-2 text-center">Grab & Grow ABC Garden</h4>
+        {/* <h4 className="font-bold px-5 py-2 text-center">Grab & Grow ABC Garden</h4> */}
+        <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
+          Grab & Grow ABC Garden
+        </h4>
         <p className="px-5 py-2">
-          An original "alphabet-gardening" Windows desktop game, made in GameMaker Studio with GML scripting language.
-          Played at school and home by more than 1,000 students in grades 3 and 4 in Sejong City, South Korea. 
+          <span className="font-bold">This is my best work. </span>It's an original
+          "alphabet-gardening" Windows desktop game, made in GameMaker Studio with GML scripting
+          language. It's been played at school and home by more than 1,000 students in grades 3 and
+          4 in Sejong City, South Korea, where I taught elementary school English for six years.
+          Download it and play it for yourself!
         </p>
         <a
           href="https://wordbirdkids.com"
@@ -131,18 +158,19 @@ const Portfolio = () => {
         >
           https://www.wordbirdkids.com
         </a>
-      
+
         <figure className="flex justify-center">
           <video className="md:w-3/4 p-5 self-center" controls autoPlay muted>
             <source
-              src={"https://word-bird-kids.s3.ap-northeast-2.amazonaws.com/Grab+%26+Grow+ABC+Garden+Game+Trailer.mp4"}
+              src={
+                'https://word-bird-kids.s3.ap-northeast-2.amazonaws.com/Grab+%26+Grow+ABC+Garden+Game+Trailer.mp4'
+              }
               type="video/mp4"
             />
             Your browser does not support the video tag.
           </video>
         </figure>
       </section>
-
     </div>
   );
 };
