@@ -1,10 +1,7 @@
 import React from 'react';
-import Skills from './Skills';
 import Portfolio from './Portfolio';
-import Resume from './Resume';
 import Contact from './Contact';
 import SocialMediaLinks from './SocialMediaLinks';
-import References from './References';
 
 const Home = () => {
   return (
