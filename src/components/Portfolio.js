@@ -3,18 +3,10 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <div id="Portfolio" className="flex flex-col lg:text-xl">
-      {/* <header className="flex justify-center items-center">
-        <h3 className="text-2xl md:text-3xl lg:text-4xl p-5 self-center">Portfolio</h3>
-      </header> */}
-
       <section className="md:w-2/3 self-center">
-        {/* <h4 className="font-bold px-5 py-2 text-center">Summit Styles</h4> */}
         <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
           Summit Styles{' '}
         </h4>
-        {/* <p className="font-bold px-5 py-2">
-          My Best Design
-        </p> */}
         <p className="px-5 py-2">
           <span className="font-bold">This is my best design. </span>It's an e-commerce storefront
           built with HTML/CSS/JavaScript, React, Node.js/Express, MongoDB and AWS.
@@ -52,7 +44,6 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        {/* <h4 className="font-bold px-5 py-2 text-center">Catbook</h4> */}
         <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
           Catbook
         </h4>
@@ -96,7 +87,6 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        {/* <h4 className="font-bold px-5 py-2 text-center">Vuetube</h4> */}
         <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
           Vuetube
         </h4>
@@ -140,7 +130,6 @@ const Portfolio = () => {
       </section>
 
       <section className="md:w-2/3 self-center">
-        {/* <h4 className="font-bold px-5 py-2 text-center">Grab & Grow ABC Garden</h4> */}
         <h4 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-regular text-center p-10">
           Grab & Grow ABC Garden
         </h4>

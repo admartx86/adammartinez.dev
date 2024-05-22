@@ -1,7 +1,6 @@
 import React from 'react';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
-import AboutMe from './AboutMe';
 import Resume from './Resume';
 import Contact from './Contact';
 import SocialMediaLinks from './SocialMediaLinks';
@@ -14,7 +13,6 @@ const Home = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center p-10">
           Adam Martinez
         </h1>
-
         <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center p-10">
           WEB DEVELOPER
         </h2>
@@ -38,26 +36,6 @@ const Home = () => {
             className="w-14 md:w-16 lg:w-20 animate-oscillate-x"
           />
         </div>
-        {/* <div className='p-5 flex justify-center'>
-        <img
-              src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/magic-wand.png"
-              alt="magic wand emoji"
-              title="magic-wand-emoji"
-              className="w-14 md:w-16 lg:w-20 animate-rotate"
-            />
-             <img
-              src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/top-hat.png"
-              alt="top hat emoji"
-              title="top-hat-emoji"
-              className="w-14 md:w-16 lg:w-20 animate-oscillate"
-            />
-             <img
-              src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/rabbit.png"
-              alt="rabbit emoji"
-              title="rabbit-emoji"
-              className="w-14 md:w-16 lg:w-20"
-            />
-            </div> */}
         <div className="p-5 flex justify-center">
           <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
             I'm a junior developer from Minnesota. I design and develop my own software, especially
