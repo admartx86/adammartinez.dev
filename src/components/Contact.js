@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="Contact" className="flex flex-col p-5">
       <article className="lg:text-xl md:w-2/3 self-center">
         <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
-          Do you have an opportunity for a junior developer? Get in touch with me.
+          Do you have an opportunity for a junior developer? Let's get in touch!
         </h3>
         <div className="p-5">
           <div className="flex flex-col items-center">

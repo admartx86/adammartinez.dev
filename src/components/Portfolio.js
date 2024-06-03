@@ -9,7 +9,7 @@ const Portfolio = () => {
         </h4>
         <p className="px-5 py-2">
           <span className="font-bold">This is my best design. </span>It's an e-commerce storefront
-          built with HTML/CSS/JavaScript, React, Node.js/Express, MongoDB and AWS.
+          built with React, Node.js/Express, MongoDB and AWS.
         </p>
         <a
           href="https://www.summitstyles.dev"
@@ -51,8 +51,7 @@ const Portfolio = () => {
           <span className="font-bold">
             This is my best and most technical work in full stack web development.{' '}
           </span>
-          It's a Twitter clone built with HTML/CSS/JavaScript, React, Redux, Tailwind CSS,
-          Node.js/Express, MongoDB and AWS.
+          It's a Twitter clone, also built with React, Node.js/Express, MongoDB and AWS.
         </p>
         <a
           href="https://www.catbook.dev"
@@ -94,8 +93,7 @@ const Portfolio = () => {
           <span className="font-bold">
             I'm not limited to using just one language or framework.
           </span>{' '}
-          Here's a simple "tube" application I made with HTML/CSS/JavaScript, Vue.js, Bootstrap,
-          PHP/Laravel, MySQL and AWS.
+          Here's a simple "tube" application I made with Vue.js, PHP/Laravel, MySQL and AWS.
         </p>
         <a
           href="https://www.vuetube.dev"
@@ -134,11 +132,10 @@ const Portfolio = () => {
           Grab & Grow ABC Garden
         </h4>
         <p className="px-5 py-2">
-          <span className="font-bold">This is my best work. </span>It's an original
+          <span className="font-bold">This is my best and most innovative work. </span>It's an original
           "alphabet-gardening" Windows desktop game, made in GameMaker Studio with GML scripting
           language. It's been played at school and home by more than 1,000 students in grades 3 and
-          4 in Sejong City, South Korea, where I taught elementary school English for six years.
-          Download it and play it for yourself!
+          4 in Sejong City, South Korea. Download it and play it for yourself!
         </p>
         <a
           href="https://wordbirdkids.com"

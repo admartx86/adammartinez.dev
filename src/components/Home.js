@@ -6,13 +6,17 @@ import SocialMediaLinks from './SocialMediaLinks';
 const Home = () => {
   return (
     <div>
-      <header className="p-24 flex flex-col">
+      <header className="p-32 flex flex-col justify-center">
+      <div className="flex justify-center">
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center p-10">
           Adam Martinez
         </h1>
+        </div>
+        <div className="flex justify-center">
         <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center p-10">
-          WEB DEVELOPER
+          JUNIOR DEVELOPER
         </h2>
+        </div>
         <div className="p-10 flex justify-center">
           <img
             src="https://s3.us-east-2.amazonaws.com/adammartinez.dev/keyboard.png"
@@ -32,12 +36,6 @@ const Home = () => {
             title="paintbrush-emoji"
             className="w-14 md:w-16 lg:w-20 animate-oscillate-x"
           />
-        </div>
-        <div className="p-5 flex justify-center">
-          <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-regular text-center p-10">
-            I'm a junior developer from Minnesota. I design and develop my own software, especially
-            for the web.
-          </h3>
         </div>
       </header>
       <main>
